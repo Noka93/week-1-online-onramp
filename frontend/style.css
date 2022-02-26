@@ -1,0 +1,136 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    margin-top: 50px;
+    width: 80%;
+    height: 100%;
+    margin-left: 15%;
+
+}
+
+nav a{
+    text-decoration: none;
+    color:rgba(128, 128, 128, 0.952);
+    margin: 10px;
+    justify-content: center;
+    font-family: 'calibri';
+}
+nav:hover{
+    border: 1px solid white;
+}
+
+.img1{
+    margin-left:16%;
+}
+hr{
+    width: 80%;
+    color: whitesmoke;
+    size: 0.4em;
+    justify-content: center;
+    margin-top: 1%;
+    margin-bottom: 4%;
+}
+
+section{
+    position: relative;
+    width: 100%;
+}
+.img2{
+    width: 370px;
+    height: 360px;
+    border-radius: 10px;
+}
+
+.dry-snow{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+span.flex1{
+    margin-left: 7%;
+    
+}
+h1, h2, h3, h4, p{
+    font-family: 'calibri';
+}
+h1{
+    margin-top: 8%;
+    font-size: 13px;
+    color: hsl(26, 89%, 56%);
+    font: bolder;  
+}
+h2{
+    width: 300px;
+    font-size: 28px;
+    margin-top: 3%;
+    margin-bottom: 4%;
+    color: black;
+
+}
+p{
+    width: 400px;
+    font-size: 15px;
+    text-align: justify;
+    font-weight: lighter;
+    color:rgba(160, 153, 153, 0.952);
+    margin-bottom: 5%;
+}
+h3{
+    font-size: 18px;
+    margin-bottom: 2%;
+
+}
+h4{
+    color:rgba(160, 153, 153, 0.952);
+    font-size: 13px;
+    text-decoration: line-through;
+    margin-bottom: 5%;
+}
+.dollar{
+    border-style: none;
+    color: hsl(26, 89%, 56%);
+    background-color: hsl(25, 82%, 85%);
+    font-size: 13px;
+    margin-left:10px;
+    font-weight: bold;
+    border-radius: 3px;
+}
+button{
+    margin:10px;
+    padding: 6px;
+    font-size: 15px;
+    font-weight: 700;
+}
+.btn_1{
+    width:80px;
+    border-radius: 3px;
+    border-style: none;
+}
+.btn_2{
+    width:170px;
+    border-style: none;
+    border-radius: 4px;
+    padding: 6px;
+    color: white;
+    background-color: hsla(26, 100%, 55%, 0.959);
+}
+span{
+    color: hsl(26, 89%, 56%);
+    font-size: 18px;
+    margin: 5px;
+    border-radius: 10px;
+}
+.flex{
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 80px;
+}
+.img3{
+    width: 110px;
+    margin-left: 13px;
+    border-radius: 15px;
+}
