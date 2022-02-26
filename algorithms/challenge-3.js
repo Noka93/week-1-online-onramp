@@ -1,3 +1,13 @@
-function isDivisbleByN(arr, n) {}
+function isDivisbleByN(arr, n) {
+  let myArr = [];
+  let count = arr.length;
 
-module.exports = isDivisbleByN
+  for (let i = 0; i < count; i++) {
+    if (arr[i] % n === 0) {
+      myArr.push(arr[i]);
+    }
+  }
+  return myArr;
+}
+
+module.exports = isDivisbleByN;
